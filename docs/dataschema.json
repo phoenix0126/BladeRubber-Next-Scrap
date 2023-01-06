@@ -1,0 +1,85 @@
+{
+    "RubberSections": [
+        {
+            "_id": {"$oid":"5ead7d9b2d132935907at62u"},
+            "name": "rubber",
+            "itemNames": [
+                "butterfly-tenergy-80",
+                "butterfly-tenergy-90"
+            ]
+        },
+        {
+            "_id": {"$oid":"5ead7d9b2d132935907at667"},
+            "name": "pips",
+            "itemNames": [
+                "andro-krypto",
+                "andro-logo"
+            ]
+        }
+    ],
+    "Rubber": [
+        {
+            "_id":{"$oid":"5e9af1b6ab5b35371c0ad14a"},
+            "name":"andro-blowfish",
+            "url": "https://revspin.net/rubber/andro-blowfish.html",            
+            "picture":"https://revspin.net/images/pips/andro-blowfish.jpg",
+            "speed":9.5,
+            "spin":7.9,
+            "control":9.0,
+            "throwAngle":7.0,
+            "tackiness": 9.0,
+            "gears": 7.3,            
+            "deception":5.6,
+            "reversal": 2.3,
+            "spongeHardness":3.7,
+            "weight":3.1
+        }
+    ],
+    "RubberQuestions": [
+        {
+            "_id":{"$oid":"5f0af99281d5eb0cf83fee8e"},
+            "id":"q01",
+            "text": {
+                "de": "Was bist du?",
+                "en": "What are you?"
+            },
+            "answers": [
+                {
+                    "id":"a0101",
+                    "text": {
+                        "de": "Alien",
+                        "en": "Alien"
+                    },
+                    "speed_min":"80",
+                    "speed_max":"100",
+                    "speed_weight":"0.8",
+                    "nextQuestion":"q02"
+                }
+            ]
+        }
+    ],
+    "RubberResults": [
+        {
+            "_id":{"$oid":"5f0af99281d5eb0cf83fee8f"},
+            "timestamp":"7737876652455765",
+            "answers": ["a0101", "a0102", "a0201", "a0301"],
+            "results": ["5e9af1b6ab5b35371c0ad14a", "5e9af1b6ab5b35371c0ad14b", "5e9af1b6ab5b35371c0ad14c"],
+            "ratings": [5, 2, 3]
+        }
+    ],
+    "Subscribers": [
+        {
+            "_id":{"$oid":"5f0af99281d5eb0cf83fee90"},
+            "email":"aaa@web.de"
+        }
+    ],
+    "Events": [
+        {
+            "_id": {"$oid":"5ead7d9b2d132935907at6fa"},
+            "name": "visit_home",
+            "timestamp": "547656587354",
+            "properties": {},
+            "browser": "9hg95he5ht9"
+        }
+    ]
+}

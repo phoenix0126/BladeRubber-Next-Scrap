@@ -1,0 +1,24 @@
+{
+    "colors": 
+    {
+        "whitegray": "#E4E4E4",
+        "lightgray": "#B2B2B2",
+        "gray": "#8c8b8b",
+        "darkgray": "#151515",
+        "red": "#d32929",
+        "black": "#000000",
+        "white": "#ffffff"
+    },
+    "fonts": 
+    {
+        "main": "Roboto"
+    },
+    "sizes": 
+    {
+        "headlineFont": "24px",
+        "innerHeadlineFont": "20px",
+        "buttonFont": "20px",
+        "contentFont": "18px",
+        "dataFont": "16px"
+    }
+}
